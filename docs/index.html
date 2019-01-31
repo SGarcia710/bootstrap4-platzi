@@ -47,7 +47,7 @@
                         <a class="nav-link" href="#join-us">Join us </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-buy" href="#">Looking for support? </a>
+                        <a class="nav-link text-buy" id="button-buy" data-toggle="modal" data-target="#modal-buy">Looking for support? </a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +87,7 @@
                                     dicta explicabo totam fugit modi, aut debitis ipsa animi eum, magni pariatur hic!
                                     Illum porro accusantium odit recusandae at.</p>
                                 <a href="#" class="btn btn-outline-light">Lorem, ipsum dolor.</a>
-                                <button type="button" class="btn btn-sg">Buy ticket</button>
+                                <button type="button" class="btn btn-sg" data-toggle="modal" data-target="#modal-buy">Buy ticket</button>
                             </div>
                         </div>
                     </div>
@@ -273,6 +273,29 @@
         </div>
     </footer>
     <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-buy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

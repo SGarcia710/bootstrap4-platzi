@@ -13,6 +13,10 @@
     width: 40px;
 }
 
+#button-buy:hover{
+    cursor: pointer;
+}
+
 #main .carousel-inner img {
     max-height: 70vh;
     object-fit: cover;
